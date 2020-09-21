@@ -1,0 +1,32 @@
+<body>
+	<div style="margin: 60px auto 0; display: flex; width: 1000px; height: 300px;">
+		<div style="width: 350px; background: #2f5696; margin-right: 20px;">
+			<img src="9.jpg" alt="" width="100%">
+			<p>За кулисами Blizzard</p>
+			<h4>Представляем Call Of Duty: Black Ops War</h4>
+		</div>
+		
+		<div style="width: 350px; background: #2f5696; margin-right: 20px;">
+			<img src="10.jpg" alt="" width="100%">
+			<p>За кулисами Blizzard</p>
+			<h4>База комиксов Blizzard</h4>
+		</div>
+		<div style="width: 350px; background: #2f5696;">
+			<img src="11.jpg" alt="" width="100%">
+			<p>Hearstone</p>
+			<h4>Состоялся выход дополнения "Некроситет"</h4>
+		</div>
+	
+	</div>
+
+	<div style="margin: 40px auto 0; display: flex; width: 1500px; height: 300px; background: url(12.jpg);">
+		<div style="width: 400px; height: 220px; margin-left: 250px; color: white;">
+			<h1 style="font-size: 45px; margin: 0;">Создавайте Миры</h1>
+			<p>Все о работе в Blizzard</p>
+
+			<div style="text-align: center; width: 100px; height: 40px; background: #2f5696; border-top: 1px solid #767676; border-left: 1px solid #767676; border-right: 1px solid #212121; border-bottom: 1px solid #212121;">
+				<p style="margin-top: 9px; margin-left: -3px;">Вакансии</p>
+			</div>
+		</div>
+	</div>
+</body>
