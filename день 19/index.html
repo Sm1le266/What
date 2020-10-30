@@ -1,0 +1,316 @@
+<!--внимательно изучите комментарии-->
+<!--создайте библиотеку классов style-->
+
+<!--Задание 1. Открой папку 1 и  картинку template.png
+				1.1 добавь класс для дива на всю ширину, назови класс menu. Задай высоту и свойство border-bottom, чтобы появилось только нижнее подчёркивание со цветом lightgrey. 
+
+				1.2 посмотрите на картинку 1_1.png, поставь два дива рядом. Для чего они? Для дива логотипа класс - logo-block (width:250px), для дива ссылок класс - links-block. 
+
+				Какое свойство надо дополнительно добавить в класс menu, чтобы дивы встали рядом? 
+
+				1.4.Поставь элементы логотип компании, иконку point и ссылку 	
+				
+				1.5 Добавь класс logo-img для логотипа, класс link-img для иконки point  и класс link для ссылки, стилизуй как на картинке template.png.
+
+				Чтобы link-img и link стояли на среднем уровне добавь свойство для link-img: vertical-align:middle.
+				
+				1.6 Для logo-block добавь: border-right, чтобы появилась граница только справа. И отцентруй картинку (text-align:center), и внутренний верхний отступ.			
+-->
+<style>
+
+	a{
+		text-decoration: none;
+	}
+
+	h1{
+		
+	}
+
+	.top{
+	    width: 100%;
+	    height: 10%;
+	    border-bottom: 1px solid #e6e6e6;
+	    display: flex;
+	    background: #f5f5f5;
+	}
+  
+  	.top_logo{
+  		width: 15%;
+  		border-right: 1px solid #e6e6e6;
+
+  	}
+
+  	.top_logo-img{
+  		padding: 8% 0 0 20%;
+    	width: 50%;
+ 	 }
+  
+  	.top_logo2{
+    	width: 100%;
+   	 	height: 100%;
+   		color: black;
+   		display: flex;
+ 	 }
+
+ 	.top_logo2-img{
+ 		margin-top: 1%;
+ 	}
+
+ 	 .top_logo2-a{
+ 	 	color: black;
+ 	 	padding-top: 1.5%; 
+ 	 }
+
+ 	 .content{
+ 	 	width: 100%;
+ 	 	height: 61%;
+ 	 	margin-top: 25px;
+ 	 	background: url(images.png);
+ 	 	background-size: 100%;
+ 	 	position: absolute;
+ 	 }
+
+ 	 .content-one{
+ 	 	width: 20%;
+ 	 	height: 35%;
+ 	 	text-align: center;
+ 	 	border-radius: 15px;
+ 	 	background: white;
+ 	 	margin: 7% 0 0 15%;
+ 	 }
+
+ 	 .content-text{
+ 	 	padding-top: 5%;
+ 	 }
+
+ 	 .time{
+ 	 	width: 100%;
+ 	 	height: 50%;
+ 	 	margin-top: 30%;
+ 	 	background: #f5f5f5;
+ 	 }
+
+ 	 .time_set{
+ 	 	display: flex;
+ 	 	width: 85%;
+ 	 	height: 100%;
+ 	 	background: ;
+ 	 	margin: 0 auto;
+ 	 }
+
+ 	 .time_set-choose{
+ 	 	width: 30%;
+ 	 	height: 80%;
+ 	 	margin-left: 4%;
+ 	 	margin-top: 2%;
+ 	 	border-radius: 10px;
+ 	 	background: white;
+
+ 	 }
+
+ 	 .time_set-choose-text{
+ 	 	width: 40%;
+ 	 	height: 29px;
+ 	 	text-align: center;
+ 	 	color: #06b800;
+ 	 	background: #f5f5f5;
+ 	 	font-weight: bold;
+ 	 	margin-top: -10px;
+ 	 	padding-top: 5px;
+ 	 	margin-left: 25px;
+ 	 	border-radius: 5px;
+ 	 }
+
+ 	 .time_set-choose-text-bold{
+ 	 	font-weight: bold;
+ 	 	font-family: arial;
+ 	 }
+
+ 	 .time_set-choose-img{
+ 	 	border-radius: 10px 10px 10px 10px;
+ 	 }
+
+ 	 .banner{
+ 	 	width: 100%;
+ 	 	height: 40%;
+ 	 	background: url(banner.png);
+ 	 	position: absolute;
+ 	 	background-size: 100%;
+
+ 	 }
+
+ 	 .bannder-text{
+ 	 	width: 300px;
+ 	 	height: 150px;
+ 	 	margin: 80px 0 0 150px;
+ 	 	text-align: center;
+ 	 	background: white;
+ 	 	border-radius: 10px;
+ 	 }
+
+ 	 .bannder-text-h1{
+ 	 	padding-top: 30px;
+ 	 }
+
+ 	 .bottom{
+ 	 	width: 100%;
+ 	 	height: 30%;
+ 	 	margin-top: 280px;
+ 	 	background: #f5f5f5;
+ 	 	font-family: arial;
+ 	 }
+
+ 	 .bottom_content{
+ 	 	display: flex;
+ 	 	width: 80%;
+ 	 	height: 100%;
+ 	 	margin: 0 auto;
+ 	 	background: ;
+ 	 }
+
+ 	 .bottom_content-text{
+ 	 	width: 20%;
+ 	 	height: 50%;
+ 	 	margin-left: 50px;
+ 	 	margin-top: 50px;
+ 	 	background: white;
+ 	 	border-radius: 10px;
+ 	 	padding-left: 5px;
+ 	 }
+
+ 	 .bottom_content-div{
+ 	 	width: 40%;
+ 	 	height: 25%;
+ 	 	text-align: center;
+ 	 	padding-top: 5px;
+ 	 	font-weight: bold;
+ 	 	color: #37d100;
+ 	 	background: #f5f5f5;
+ 	 	border-radius: 5px;
+ 	 }
+
+ 	 .bottom_content-p{
+ 	 	font-weight: bold;
+ 	 }
+</style>
+
+<!--Меню-->
+<div class="top">
+	<div class="top_logo">
+		<img src="logo.png" class="top_logo-img">
+	</div>
+	<div class="top_logo2">
+		<div class="top_logo2-img">
+			<img src="point.png" class="top_logo2-img">
+		</div>
+		<a href="" class="top_logo2-a">Адрес доставки</a>		
+	</div>	
+</div>
+
+
+<!--Задание 2. Открой папку 2 и картинку template.png. 
+				2.1 Посмотри на картинку 1.png, добавь ему класс main-banner и свойства.
+				Картинка стоит фоном у него. 
+
+				2.2. Посмотрите на картинку 2.png, добавье класс для дива title-block, ширина блока 500px. 
+
+				2.3 Для заголовка добавь класс title и нужные свойства. Вспомни, как поставить по центру текст. Размер текста 50px;		
+
+				2.5. Чтобы блок title-block стоял с отступом от дива-родителя. Добавь диву-родителю (main-banner) внутренний верхний отступ padding-top. 
+
+				2.6. Для title-block убери высоту, чтобы она подстраивалась под содержимое и добавь внутренние отступы снизу и сверху по 5px;
+
+				Эти классы обязательно используйте повторно внизу. 
+-->
+<!--ГЛАВНЫЙ БАННЕР-->
+<div class="content">
+	<div class="content-one">
+		<h1 class="content-text">Редкие животные на рюкзаках Delivery Club</h1>	
+	</div>
+</div>
+
+<!--Задание 3. Папка 3 и template.png. Блок с любимыми доставками из твоего города. 
+				3.1 Посмотри на картинку 1.png. Надо поставить див-родитель серого цвета (#F6F6F6). Назови класс cafe-block. Не ставь высоту, пусть див подстроится под содержимое. Лучше добавь внутренние нижние и верхние отступы по 50px.
+
+				3.2 Картинка 2.png, надо поставить див по центру.  Назовите класс center-cafe, ширина на большом экране будет 1600px. Можешь подстроить ширину под свой монитор. И добавь display:flex, чтобы дивы внутри него встали в строку.
+
+				3.3 Картинка 3.png, теперь надо поставить 4 одинаковых дива. Создайте класс cafe-item и добавь каждому диву.
+				
+				3.4. Скачайте картинки любимых кафе города и поставьте их. А также, название и примерное время доставки. 
+
+				3.5 Добавь классы для картинок cafe-img, для текста text, для времени cafe-timer. Стилизуй их смотря на template.png
+-->
+<!--Кафе-->
+<div class="time">
+	<div class="time_set">
+		<div class="time_set-choose">
+			<img src="mcdonalds.jpg" alt="" width="100%" height="70%" class="time_set-choose-img">
+			<p class="time_set-choose-text-bold">Mcdonalds</p>
+			<div class="time_set-choose-text">20-30 мин</div>
+		</div>
+		<div class="time_set-choose time_set-choose2">
+			<img src="burger_king_1.jpg" alt="" width="100%" height="70%" class="time_set-choose-img">
+			<p class="time_set-choose-text-bold">Burger King</p>
+			<div class="time_set-choose-text">25-35 мин</div>
+		</div>
+		<div class="time_set-choose time_set-choose2">
+			<img src="kfc.jpg" alt="" width="100%" height="70%" class="time_set-choose-img">
+			
+			<p class="time_set-choose-text-bold">KFC</p>
+			<div class="time_set-choose-text">35-45 мин</div>
+		</div>
+		<div class="time_set-choose time_set-choose2">
+			<img src="dunkin donuts.jpg" alt="" width="100%" height="70%" class="time_set-choose-img">
+			<p class="time_set-choose-text-bold">dunkin donuts</p>
+			<div class="time_set-choose-text">45-60 мин</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<!--Задание 4. Папка 4 и template.png
+				4.1 Здесь все просто, добавьте диву с фоном класс middle-banner. 
+				4.2 Свойства дива для заголовка такие же, как и у дива в main-banner. Надо  ли тогда, создавать новый класс?
+				4.3. Свойства заголовка h1, тоже такие, как в main-banner. Надо ли тогда задавать новые классы?
+-->
+<!--СРЕДНИЙ БАННЕР-->
+<div class="banner">
+	<div class="bannder-text">
+		<h1 class="bannder-text-h1">Спасём природу вместе!</h1>
+	</div>	
+</div>
+
+
+<!--Задание 5. Полностью похож на Задание 3. Только вставьте такие доставки, которых нет в твоём городе и ты бы хотел их видеть. Например ,mcdonalds или dunkin donuts.
+
+	Выполните по аналогии, используя классы из задания 3.-->
+<!--ТОВАРЫ-->
+<div class="bottom">
+	<div class="bottom_content">	
+		<div class="bottom_content-text">
+			
+			<p class="bottom_content-p">dunkin donuts </p>
+			
+			<div class="bottom_content-div">20-30 мин</div>
+		</div>
+		<div class="bottom_content-text">
+			
+			<p class="bottom_content-p">mcdonalds</p>
+			
+			<div class="bottom_content-div">25-35 мин</div>
+		</div>
+		<div class="bottom_content-text">
+			
+			<p class="bottom_content-p">burger king</p>
+			
+			<div class="bottom_content-div">25-45 мин</div>
+		</div>
+		<div class="bottom_content-text">
+			
+			<p class="bottom_content-p">kfc </p>
+			
+			<div class="bottom_content-div">45-60 мин</div>
+		</div>
+	</div>
+</div>
